@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.whole{
+  background-color:rgb(8, 8, 59);
+  height: 570px;
+  border:1px solid rgb(8, 8, 59); ;
+}
+
+h2{
+  background: transparent;
+  color: white;
+  width: 20%;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 30px;
+}
+
+h2 span{
+  color: rgb(0, 128, 255);
+}
+
+.div2{
+  width: 20%;
+  height: 350px;
+  border: 0px solid rgb(0, 128, 255);
+  margin-top: 70px;
+  margin-left: 110px;
+  background: url(internship.jpeg);background-size: cover;box-shadow: -5px -5px 18px rgb(0, 128, 255) ;border-radius: 5px;
+}
+
+.div2:hover{
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: .1s,.1s,.1s;
+  transition-timing-function: linear, linear, linear;
+  transition-delay: .1s,.1s,.1s;
+
+}
+
+.div3{
+  width: 31%;
+  height: 280px;
+  border: 1px solid rgb(0, 128, 255);
+  margin-top: -299px;
+  margin-left: 394px;border-radius: 20px;
+  background: url(stc.jpeg);background-size: cover;box-shadow: -5px -5px 18px rgb(0, 128, 255) ;
+}
+
+.div3:hover{
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: .1s,.1s,.1s;
+  transition-timing-function: linear, linear, linear;
+  transition-delay: .1s,.1s,.1s;
+
+}
+
+.div4{
+  width: 31%;
+  height: 280px;
+  border: 1px solid rgb(0, 128, 255);
+  margin-top: -283px;
+  margin-left: 820px;border-radius: 20px;
+  background: url(maven.jpeg);background-size: cover;box-shadow: -5px -5px 18px rgb(0, 128, 255) ;
+}
+
+.div4:hover{
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: .1s,.1s,.1s;
+  transition-timing-function: linear, linear, linear;
+  transition-delay: .1s,.1s,.1s;
+}

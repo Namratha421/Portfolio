@@ -1,0 +1,208 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body{
+  color: white;
+}
+
+.header{
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:100;
+  background:rgb(8, 8, 59);
+}
+
+.logo{
+  font-size:25px;
+  color:white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a {
+  font-size: 18px;
+  color:white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+  color: rgb(0, 128, 255);
+}
+.section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: rgb(16, 16, 83);
+}
+
+.skills{
+  border: 0px solid white;
+  align-items: center;
+  margin-top: -350px;
+  margin-left: 42%;
+  font-size: 20px;
+  width: 50%;
+}
+
+.skills span{
+  color: rgb(33, 132, 213);
+} 
+
+.d1{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: -1010px;
+  margin-top: -90px; 
+  background: url(https://logowik.com/content/uploads/images/492_html5.jpg);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d2{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: 70px;
+  margin-top: -90px;
+  background: url(https://i0.wp.com/www.team-ever.com/wp-content/uploads/2014/08/css3.jpg);background-size: cover;background-position: center;
+  border-radius: 20px;
+}
+
+.d3{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: 70px;
+  margin-top: -90px;
+  background: url(https://global.discourse-cdn.com/sitepoint/original/3X/e/b/eba3983204f9f9c01dab4c54e33b2b9d9a2731e0.png);background-size: cover;background-position: center;border-radius: 20px;
+
+}
+
+.d4{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: 70px;
+  margin-top: -90px;
+  background: url(https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d5{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: 70px;
+  margin-top: -90px;
+  background: url(https://seeklogo.com/images/M/mysql-logo-B4943FE6DD-seeklogo.com.png);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d6{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: -120px;
+  margin-top: 250px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/94/VLSI_Chip.jpg);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d7{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: -330px;
+  margin-top: 250px;
+  background: url(https://cdn.worldvectorlogo.com/logos/java.svg);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d8{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: -330px;
+  margin-top: 250px;
+  background: url(https://testinggenez.com/wp-content/uploads/2019/11/main-qimg-8b3fecdbd981a0f30b8291cfdbd846c3.png?x69794);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d9{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: -330px;
+  margin-top: 250px;
+  background: url(https://www.freecodecamp.org/news/content/images/2022/07/git-and-github.png);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.d10{
+  width: 10%;
+  height: 120px;
+  background: aliceblue;
+  margin-left: -330px;
+  margin-top: 250px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJc6e910MQ1U_loAFTdSj5xYauDUzs7G3Daw&usqp=CAU);background-size: cover;background-position: center;border-radius: 20px;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 35px;
+  background: rgb(0, 110, 255);
+  border:2px solid rgb(0, 110, 255);
+  border-radius: 8px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5px;
+  margin-left: 280px;
+  margin-top: 480px;
+}
+
+.btn-box a:hover {
+  color:rgb(0, 110, 255); 
+}
+
+.btn-box a:nth-child(2) {
+  background: transparent;
+  color: rgb(0, 110, 255);
+}
+
+.btn-box a:nth-child(2):hover{
+  color: black;
+}
+
+.btn-box a:nth-child(2)::before {
+  background:rgb(0, 110, 255);
+}
+
+.btn-box a::before {
+  content: '' ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(8, 8, 59);
+  z-index: -1;
+  transition: .5s;
+}
+
+.btn-box a:hover:before{
+  width: 100%;
+}
